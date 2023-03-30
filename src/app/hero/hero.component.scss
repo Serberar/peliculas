@@ -1,0 +1,24 @@
+.text-ranking{
+    text-align: center;
+}
+.ranking {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .ranking > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  .ranking img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  

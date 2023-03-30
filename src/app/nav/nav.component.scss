@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.logo {
+    margin: 20px;
+    align-self: flex-start;
+  }
+  
+  .nav {
+    margin-top: 160px;
+    justify-content: flex-end;
+  }

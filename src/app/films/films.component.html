@@ -1,0 +1,7 @@
+<div class="gallery">
+    <div *ngFor="let movie of movies" class="item">
+      <img [src]="movie.posterUrl" alt="{{ movie.title }}" class="poster">
+      <h3 class="title">{{ movie.title }}</h3>
+      <p class="genres">{{ movie.genres.join(', ') }}</p>
+    </div>
+  </div>
