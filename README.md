@@ -1,27 +1,30 @@
-# Netflix
+# Películas · Catálogo estilo Netflix (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Catálogo de películas con aspecto **tipo Netflix** hecho con Angular. Muestra una portada con las películas más populares de la semana y la cuadrícula con todo el catálogo.
 
-## Development server
+**Ver online:** https://serberar.github.io/peliculas/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Componentes
 
-## Code scaffolding
+| Componente | Qué hace |
+|---|---|
+| `nav` | Barra de navegación. |
+| `hero` | Cabecera con «las películas más populares de la semana». |
+| `films` | Cuadrícula de películas generada con `*ngFor`. |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Los datos salen de `src/app/seed/seed.ts`: 146 películas con título, año, duración, géneros, director, actores y argumento.
 
-## Build
+## Tecnologías
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Angular 15, TypeScript y SCSS.
 
-## Running unit tests
+## Cómo arrancarlo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install
+npx ng serve      # http://localhost:4200
+```
 
-## Running end-to-end tests
+## Autor
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Sergio Bernabé
